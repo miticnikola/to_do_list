@@ -24,18 +24,19 @@ body {
       body #main #addItem button {
         display: block;
         width: 100%;
-        font-size: 1.3rem; }
+        font-size: 1.3rem;
+        border: none; }
+        body #main #addItem #typeRes:focus,
+        body #main #addItem button:focus {
+          content: '';
+          outline: none; }
       body #main #addItem #typeRes {
         margin: 0 auto;
         margin-bottom: 10px;
         width: 95%;
-        border: 0;
         -webkit-box-shadow: 0px 5px 5px -3px #000000;
         box-shadow: 0px 5px 5px -3px #000000;
         padding: 5px; }
-        body #main #addItem #typeRes:focus {
-          content: '';
-          outline: none; }
       body #main #addItem button {
         padding: 10px 5px;
         background-color: #5bd82a;
