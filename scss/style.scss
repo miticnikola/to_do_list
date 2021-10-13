@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    header {
+        text-align: center;
+    }
+    
+    #main {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aquamarine;
+        #addItem {
+            width: 50%;
+            background-color: brown;
+            #typeRes, button {
+                display: block;
+                width: 100%;
+            }
+            #typeRes {
+                margin: 0 auto;
+                margin-bottom: 10px;
+                width: 95%;
+            }
+        }  
+    
+        #list {
+            width: 50%;
+            background-color: limegreen;
+            height: 100px; //promeni posle 
+        }
+        
+    }
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +8,40 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!-- Header -->
     <header>
-
+        <h1>Which are your responsibilities today?</h1>
     </header>
 
     <!-- Main section -->
     <section id="main">
+
+        <!-- Add responsibility -->
+        <div id="addItem">
+            <form>
+                <input type="text" id="typeRes">
+                <button type="submit">Add responsibility</button>
+
+                <!-- Radio Buttons -->
+                <div>
+                    <p>
+                        <input type="radio" name="possition" id="top">
+                        <label for="top">Add on top</label><br>
+                    </p>
+
+                    <p>
+                        <input type="radio" name="possition" id="bottom">
+                        <label for="bottom">Add on bottom</label>
+                    </p>
+                </div>
+            </form>
+
+        </div>
+
+        <!-- List of responsibilities -->
+        <ul id="list"></ul>
 
     </section>
 
@@ -26,4 +53,5 @@
     <!-- JS link -->
     <script src="js/main.js"></script>
 </body>
+
 </html>
