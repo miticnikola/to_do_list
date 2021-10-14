@@ -45,6 +45,9 @@ body {
       width: 45%;
       background-color: limegreen;
       min-height: 500px;
-      max-height: 100%; }
+      max-height: 100%;
+      padding-top: 50px; }
+      body #main #list li {
+        list-style-type: decimal-leading-zero; }
 
 /*# sourceMappingURL=style.css.map */

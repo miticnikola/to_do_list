@@ -49,6 +49,10 @@ body {
       background-color: limegreen;
       min-height: 500px; //promeni posle
       max-height: 100%;
+      padding-top: 50px;
+      li {
+          list-style-type: decimal-leading-zero;
+      }
     }
   }
 }
