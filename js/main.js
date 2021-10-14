@@ -4,7 +4,7 @@ let input = document.getElementById('typeRes');
 let submitBtn = document.getElementById('submit');
 let radioTop = document.getElementById('top');
 let radioBottom = document.getElementById('bottom');
-let respList = document.getElementById('list');
+let respList = document.getElementById('listResp');
 let li = document.querySelectorAll('li');
 
 

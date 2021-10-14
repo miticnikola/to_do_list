@@ -1,53 +1,58 @@
-body {
+* {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
-  body header {
-    text-align: center; }
-  body #main {
-    padding: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    background-color: aquamarine; }
-    body #main #addItem {
-      width: 45%;
-      padding: 20px 0px; }
-      body #main #addItem #typeRes,
-      body #main #addItem button {
-        display: block;
-        width: 100%;
-        font-size: 1.3rem;
-        border: none; }
-        body #main #addItem #typeRes:focus,
-        body #main #addItem button:focus {
-          content: '';
-          outline: none; }
-      body #main #addItem #typeRes {
-        margin: 0 auto;
-        margin-bottom: 10px;
-        width: 95%;
-        -webkit-box-shadow: 0px 5px 5px -3px #000000;
-        box-shadow: 0px 5px 5px -3px #000000;
-        padding: 5px; }
-      body #main #addItem button {
-        padding: 10px 5px;
-        background-color: #5bd82a;
-        border-radius: 10px; }
-    body #main #list {
-      width: 45%;
-      background-color: limegreen;
-      min-height: 500px;
-      max-height: 100%;
-      padding-top: 50px; }
-      body #main #list li {
-        list-style-type: decimal-leading-zero; }
+
+body header {
+  text-align: center; }
+body #main {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: aquamarine; }
+  body #main #addItem {
+    width: 45%;
+    padding: 20px 0px; }
+    body #main #addItem #typeRes,
+    body #main #addItem button {
+      display: block;
+      width: 100%;
+      font-size: 1.3rem;
+      border: none; }
+      body #main #addItem #typeRes:focus,
+      body #main #addItem button:focus {
+        content: "";
+        outline: none; }
+    body #main #addItem #typeRes {
+      margin: 0 auto;
+      margin-bottom: 10px;
+      width: 95%;
+      -webkit-box-shadow: 0px 5px 5px -3px #000000;
+      box-shadow: 0px 5px 5px -3px #000000;
+      padding: 5px; }
+    body #main #addItem button {
+      padding: 10px 5px;
+      background-color: #5bd82a;
+      border-radius: 10px; }
+  body #main aside {
+    width: 45%;
+    background-color: limegreen;
+    min-height: 500px;
+    max-height: 100%;
+    padding: 50px; }
+    body #main aside h3 {
+      background-color: sandybrown;
+      margin-left: -27px; }
+    body #main aside #listResp li {
+      list-style-type: decimal-leading-zero;
+      background-color: skyblue; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,8 +1,10 @@
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
 
+body {
   header {
     text-align: center;
   }
@@ -15,7 +17,7 @@ body {
     background-color: aquamarine;
     #addItem {
       width: 45%;
-    //   background-color: brown;
+      //   background-color: brown;
       padding: 20px 0px;
       #typeRes,
       button {
@@ -24,8 +26,8 @@ body {
         font-size: 1.3rem;
         border: none;
         &:focus {
-            content: '';
-            outline: none;
+          content: "";
+          outline: none;
         }
       }
       #typeRes {
@@ -44,14 +46,21 @@ body {
       }
     }
 
-    #list {
+    aside {
       width: 45%;
       background-color: limegreen;
       min-height: 500px; //promeni posle
       max-height: 100%;
-      padding-top: 50px;
-      li {
+      padding: 50px;
+      h3 {
+        background-color: sandybrown;
+        margin-left: -27px;
+      }
+      #listResp {
+        li {
           list-style-type: decimal-leading-zero;
+          background-color: skyblue;
+        }
       }
     }
   }
